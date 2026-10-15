@@ -1,0 +1,16 @@
+{
+  "name": "pskills",
+  "owner": {
+    "name": "Joas Mulder"
+  },
+  "metadata": {
+    "description": "Personal Claude Code skills."
+  },
+  "plugins": [
+    {
+      "name": "better-writing",
+      "source": "./skills/better-writing",
+      "description": "Writing style for text that leaves the session for other people: PR descriptions and comments, work items, commit messages, announcements, chat messages, and customer-facing emails and incident updates. A per-target style on top of a shared plain-English baseline."
+    }
+  ]
+}
