@@ -3,9 +3,9 @@ name: better-writing
 description: >-
   Writing style for any text that leaves this session for other people: PR descriptions,
   PR review comments and thread replies, work item (Bug/PBI) descriptions, repro steps and
-  acceptance criteria, work item comments, release-note text such as a customer impact
-  field, commit messages, team announcements, chat messages drafted for colleagues, and
-  customer-facing text such as emails, support replies, incident updates and postmortems.
+  acceptance criteria, work item comments, commit messages, team announcements, chat
+  messages drafted for colleagues, and customer-facing text such as emails, support
+  replies, incident updates and postmortems.
   Use it whenever you draft, post, or edit such text, also when another skill or workflow
   produces it, and even when nobody asks for a style. Applies a per-target style on top of
   a shared plain-English baseline. Not for replies to the user in this chat, code comments,
@@ -14,7 +14,7 @@ description: >-
 
 # Better writing
 
-Text that leaves this session is read by someone who never saw the session. Usually that is a colleague. For release notes, emails, support replies and incident reports it is a customer. Write for that person.
+Text that leaves this session is read by someone who never saw the session. Usually that is a colleague. For emails, support replies and incident reports it is a customer. Write for that person.
 
 ## Workflow
 
@@ -28,7 +28,6 @@ Text that leaves this session is read by someone who never saw the session. Usua
 | PR review comment, reply in a PR thread | `targets/pr-comment.md` |
 | Work item description, repro steps, acceptance criteria | `targets/work-item-description.md` |
 | Work item comment | `targets/work-item-comment.md` |
-| Release-note text, such as a customer impact field | `targets/release-note.md` |
 | Customer-facing text: email, support reply, incident update, postmortem | `targets/customer-message.md` |
 | Commit message, PR title | `targets/commit-message.md` |
 | Announcement in a chat channel (usually company-wide) | `targets/announcement.md` |

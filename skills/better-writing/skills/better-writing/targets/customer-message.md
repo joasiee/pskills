@@ -1,6 +1,6 @@
 # Customer message
 
-Any text a customer reads that is not release-note text: an email, a reply to a support ticket, an update during an incident, a postmortem after instability or slow performance. For release-note text, use `release-note.md`, and these tone rules apply there too.
+Any text a customer reads: an email, a reply to a support ticket, an update during an incident, a postmortem after instability or slow performance.
 
 The reader uses the product to do their job. They do not know programming, builds, pipelines or hosting, and they do not need to. They want to know what happened to their work, whether it is fine now, what to expect, and whether they must do anything.
 
