@@ -51,6 +51,10 @@ Text that leaves this session is read by someone who never saw the session. Usua
 - Open with the point. Then give the premise the reader is missing: what you saw, where, and why it matters. One or two sentences, not a run-up.
 - Use the codebase's names: classes, functions, settings, work item titles. Drop every name this session invented ("the stale-handle race", "option B", "phase 2", "the fix from earlier"). If a concept has no name in the code, describe it.
 - Write for what this reader knows. Explain an abbreviation or domain term the reader may not know, such as an internal record type for a product owner. A product owner or tester needs what it means for customers and planning, not the mechanism.
+- When the text explains how threads, processes or async tasks interact, show the order of events as a numbered timeline. This holds for any concurrency bug (deadlock, race, use-after-free, lost update) and for an explanation of why something is safe. Name the actors ("Thread A", "the poll timer"), give each step one actor and what it does, and end on the step that shows the effect. The reader cannot check a claim about concurrency without the order of events, and a numbered list reads better than a table or prose:
+  1. Thread A checks `m_tasks` and finds no task with this ID.
+  2. Thread B adds the task and queues it.
+  3. Thread A creates the same task and queues it again, so the task runs twice.
 - No session residue: "as discussed", "as requested", "per your instructions", "after investigating".
 - Shorter and clearer, never shorter and blunter. Cut words, not context.
 
