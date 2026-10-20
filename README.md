@@ -19,9 +19,9 @@ the case without names. Read the full diff before every commit. When in doubt, l
 
 ## Available skills
 
-| Skill            | Description                                                                                                                 |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| `better-writing` | Writing style for text that leaves the session: PR and work item text, commit messages, chat messages, customer-facing text |
+| Skill            | Description                                                                                                                            |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| `better-writing` | Writing style for text that leaves the session: PR and work item text, commit messages, proposals, chat messages, customer-facing text |
 
 ## Setup
 

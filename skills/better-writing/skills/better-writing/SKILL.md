@@ -3,9 +3,10 @@ name: better-writing
 description: >-
   Writing style for any text that leaves this session for other people: PR descriptions,
   PR review comments and thread replies, work item (Bug/PBI) descriptions, repro steps and
-  acceptance criteria, work item comments, commit messages, team announcements, chat
-  messages drafted for colleagues, and customer-facing text such as emails, support
-  replies, incident updates and postmortems.
+  acceptance criteria, work item comments, commit messages, team announcements, proposals,
+  design documents and idea write-ups for colleagues to comment on, chat messages drafted
+  for colleagues, and customer-facing text such as emails, support replies, incident
+  updates and postmortems.
   Use it whenever you draft, post, or edit such text, also when another skill or workflow
   produces it, and even when nobody asks for a style. Applies a per-target style on top of
   a shared plain-English baseline. Not for replies to the user in this chat, code comments,
@@ -31,6 +32,7 @@ Text that leaves this session is read by someone who never saw the session. Usua
 | Customer-facing text: email, support reply, incident update, postmortem | `targets/customer-message.md` |
 | Commit message, PR title | `targets/commit-message.md` |
 | Announcement in a chat channel (usually company-wide) | `targets/announcement.md` |
+| Proposal, design document, idea write-up | `targets/proposal.md` |
 | Direct chat message to a colleague | `targets/chat-message.md` |
 
 ## Baseline
