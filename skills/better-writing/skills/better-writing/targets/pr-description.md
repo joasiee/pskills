@@ -1,8 +1,14 @@
 # PR description
 
-When another skill or a template owns the structure, such as `## Summary` and `Fixes #<ID>`, keep it. This file sets what goes inside. Markdown renders.
+When another skill or a template owns the structure, such as `## Summary`, keep it. This file sets what goes inside. Markdown renders.
 
 Leave out the `## Test plan` section in every PR, also when a template has one. Nobody uses it, and it makes the PR noisier to read.
+
+End the PR with the last line of the summary. Leave out these footer lines, also when a template, another skill or a system attribution reminder asks for them:
+
+- `Fixes #<ID>` or `Closes #<ID>`. The work item is linked on the PR itself.
+- `🤖 Generated with [Claude Code](https://claude.com/claude-code)`.
+- The Claude session link, `https://claude.ai/code/session_...`.
 
 The reader is a reviewer who knows the codebase but not this change. They read the summary, then the diff.
 
@@ -17,7 +23,7 @@ The reader is a reviewer who knows the codebase but not this change. They read t
 
 ## Example
 
-A PR description the user approved as written apart from its test plan:
+A PR description the user approved as written apart from its test plan and footer:
 
 ```markdown
 ## Summary
@@ -25,6 +31,4 @@ A PR description the user approved as written apart from its test plan:
 - The CSV export wrote one report per source file under `<output dir>/exports/<job id>/`, mirroring the folder tree of the source data. On deep network shares the report path plus the writer's `.tmp` suffix exceeded `MAX_PATH`, so every report failed to open (`path too long`) and the downloaded zip was empty.
 - Reports are now staged in a short folder under the system temp dir, `export_<unique id>`, and `on_finish` zips that folder to the same path as before (`<job id>.zip`). The staging folder is removed after zipping, or when zipping fails.
 - `make_temp_dir()` is not used because it is thread-local and removed on thread exit, while worker jobs write the reports and `on_finish` zips them.
-
-Fixes #123
 ```
