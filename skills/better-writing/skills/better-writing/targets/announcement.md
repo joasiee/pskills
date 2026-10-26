@@ -9,11 +9,13 @@ Only when readers must act, or will notice the change in their work. A fix or bu
 ## Shape
 
 1. Title: a short lowercase line that states the news. "new login page on the demo environment", "5 crash fixes landed in version 2.3 this week".
-2. What changed, in one or two sentences, as the reader sees it. Start with the news, no greeting.
+2. What changed, in one or two sentences, as the reader sees it. Start with the news, no greeting. When something prompted the post, such as a retro point or a question in the channel, open with that in one sentence.
 3. What it means for the reader: "This means ...". Name what changes in their work, or what they no longer need to do.
 4. What the reader must do, with the exact names they will see: the menu, the setting, the environment.
 5. A trade-off or workaround, if one exists, with its cost stated plainly. Then your recommendation in the first person, with the reason.
-6. A TLDR of one or two sentences when the body is longer than one paragraph: the change and the action.
+6. A TLDR of one or two sentences when the body is longer than three paragraphs: the change and the action.
+
+The steps set the order, not the paragraphs. Join them into two or three full paragraphs, usually what changed and what it means, then what to do. A row of one- or two-sentence paragraphs reads like a list.
 
 End on the action. No sign-off.
 
@@ -33,8 +35,6 @@ A post in a developers' channel may name tools, branches and settings. The examp
 > We upgraded clang-format to version 21 for `release/2.4`. This means we now maintain two versions: 19 for `release/2.3` and older, 21 for everything newer. clang-format 21 is in the shared tools repo, so pull from there.
 >
 > Format on save in Visual Studio still uses version 19, so it no longer works for 2.4. You can switch it to 21 in the settings, but then you must switch back for 2.3 branches. That is not ideal. I recommend the git hook instead. It formats every commit with the right version, including code Claude wrote. Set `INSTALL_GIT_HOOKS=ON` to configure it automatically.
->
-> TLDR: 2.4 uses clang-format 21. Pull the latest tools repo and enable the git hook.
 
 One bullet from a list of fixes:
 
