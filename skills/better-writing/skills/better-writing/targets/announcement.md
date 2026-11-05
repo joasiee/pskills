@@ -26,6 +26,20 @@ End on the action. No sign-off.
 - Exact names the reader uses: versions, environments, customers, dates, counts. Internal posts name customers, unlike release notes.
 - Several items of the same kind (fixes, customers): one bullet each, led by the customer or component name and a colon, with the other fields in the same order every time.
 
+## Call to action
+
+A short post that asks people to do something together, such as a test session, uses its own shape instead of the one above:
+
+- No title. Two or three sentences in the thread.
+- Say why they should do it. The goal is what gets people to join: the user conference, a release date, a customer demo.
+- Say what to look for or do, in the reader's words: "bugs, performance and stability issues", not "anything that looks wrong".
+- Leave out background the reader does not need to act, such as which version ran before.
+- A closing line that rallies people ("Let's try to find ...") is fine here, and the "end on the last fact" rule does not apply.
+
+The user's rewrite of a test request:
+
+> Currently deploying the latest 2.4 release to https://staging.example.com. Please all try to test it at 11:30 and post anything that looks wrong in this thread. Lets try to find bugs, performance and stability issues so we can fix them in preparation for the user conference!
+
 ## Developer-only channels
 
 A post in a developers' channel may name tools, branches and settings. The example below is one.

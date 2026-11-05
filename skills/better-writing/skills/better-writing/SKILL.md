@@ -31,7 +31,7 @@ Text that leaves this session is read by someone who never saw the session. Usua
 | Work item comment | `targets/work-item-comment.md` |
 | Customer-facing text: email, support reply, incident update, postmortem | `targets/customer-message.md` |
 | Commit message, PR title | `targets/commit-message.md` |
-| Announcement in a chat channel (usually company-wide) | `targets/announcement.md` |
+| Announcement or call to action (test session, shared task) in a chat channel | `targets/announcement.md` |
 | Proposal, design document, idea write-up | `targets/proposal.md` |
 | Direct chat message to a colleague | `targets/chat-message.md` |
 
