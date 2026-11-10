@@ -22,6 +22,7 @@ the case without names. Read the full diff before every commit. When in doubt, l
 | Skill            | Description                                                                                                                            |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `better-writing` | Writing style for text that leaves the session: PR and work item text, commit messages, proposals, chat messages, customer-facing text |
+| `comment-pass`   | Sonnet scan of the comments and docs a branch adds, then fix and commit them as a docs commit where possible                           |
 
 ## Setup
 
