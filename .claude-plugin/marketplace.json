@@ -16,6 +16,26 @@
       "name": "comment-pass",
       "source": "./skills/comment-pass",
       "description": "Cheap clean-up pass over the code comments and documentation a branch adds: a Sonnet subagent scans them, the main session checks, fixes and commits the result as a docs commit where possible."
+    },
+    {
+      "name": "benchmark-checklist",
+      "source": "./skills/benchmark-checklist",
+      "description": "Vet a performance number before reporting or acting on it: the limiter, tuning, limits, errors, repeatability, end-to-end relevance, and whether the timed work happened. From pstack (MIT)."
+    },
+    {
+      "name": "blast-radius",
+      "source": "./skills/blast-radius",
+      "description": "Find what a small change could break outside its diff, and prove the one fact it is safe because of by running real code. From pstack (MIT)."
+    },
+    {
+      "name": "correct",
+      "source": "./skills/correct",
+      "description": "Turn mistakes agents keep repeating into checks that fail: architecture first, then types, lints and hooks, then tests, docs last. From pstack (MIT)."
+    },
+    {
+      "name": "arena",
+      "source": "./skills/arena",
+      "description": "Run N independent candidates at the same task, judge them on a fixed rubric, pick a base and graft the best parts of the others. Adapted from pstack (MIT) for Claude models."
     }
   ]
 }

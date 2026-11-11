@@ -23,6 +23,17 @@ the case without names. Read the full diff before every commit. When in doubt, l
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `better-writing` | Writing style for text that leaves the session: PR and work item text, commit messages, proposals, chat messages, customer-facing text |
 | `comment-pass`   | Sonnet scan of the comments and docs a branch adds, then fix and commit them as a docs commit where possible                           |
+| `benchmark-checklist` | Vet a measured performance number before reporting it: limiter, tuning, errors, interleaved repeat runs, end-to-end share         |
+| `blast-radius`   | What a small change breaks outside its diff, with the one fact it is safe because of proven by running code                           |
+| `correct`        | Turn mistakes agents keep repeating into checks that fail: architecture, types, lints and hooks, tests, docs last                      |
+| `arena`          | Independent candidates at the same task, a judge on another model, then pick a base and graft the best parts                          |
+
+## Third-party skills
+
+`benchmark-checklist`, `blast-radius`, `correct` and `arena` come from [pstack](https://github.com/cursor/plugins/tree/main/pstack)
+by Lauren Tan, MIT licensed, at commit `5866df5`. Each one's plugin folder holds the original `LICENSE`. The changes adapt
+them to Claude Code: Claude models and the `Agent` tool instead of Cursor's `Task` and Grok, Windows commands next to Linux
+ones, and no references to pstack skills that aren't copied here.
 
 ## Setup
 
