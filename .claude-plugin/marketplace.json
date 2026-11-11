@@ -36,6 +36,11 @@
       "name": "arena",
       "source": "./skills/arena",
       "description": "Run N independent candidates at the same task, judge them on a fixed rubric, pick a base and graft the best parts of the others. Adapted from pstack (MIT) for Claude models."
+    },
+    {
+      "name": "writing-for-agents",
+      "source": "./skills/writing-for-agents",
+      "description": "Reference for writing documents agents read: skills, AGENTS.md and CLAUDE.md, subagent prompts. Context pointers, the information hierarchy, completion criteria, leading words and pruning. From mattpocock/skills (MIT)."
     }
   ]
 }

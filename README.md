@@ -27,6 +27,7 @@ the case without names. Read the full diff before every commit. When in doubt, l
 | `blast-radius`   | What a small change breaks outside its diff, with the one fact it is safe because of proven by running code                           |
 | `correct`        | Turn mistakes agents keep repeating into checks that fail: architecture, types, lints and hooks, tests, docs last                      |
 | `arena`          | Independent candidates at the same task, a judge on another model, then pick a base and graft the best parts                          |
+| `writing-for-agents` | Writing skills, AGENTS.md and CLAUDE.md, and subagent prompts: pointers, hierarchy, completion criteria, leading words, pruning |
 
 ## Third-party skills
 
@@ -34,6 +35,10 @@ the case without names. Read the full diff before every commit. When in doubt, l
 by Lauren Tan, MIT licensed, at commit `5866df5`. Each one's plugin folder holds the original `LICENSE`. The changes adapt
 them to Claude Code: Claude models and the `Agent` tool instead of Cursor's `Task` and Grok, Windows commands next to Linux
 ones, and no references to pstack skills that aren't copied here.
+
+`writing-for-agents` comes from [mattpocock/skills](https://github.com/mattpocock/skills) by Matt Pocock, MIT licensed, at
+commit `4ae2317`. Its plugin folder holds the original `LICENSE`. The change adds subagent prompts to the documents it
+covers and to its trigger. The Codex `agents/openai.yaml` is left out.
 
 ## Setup
 
