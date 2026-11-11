@@ -1,13 +1,9 @@
 ---
 name: comment-pass
 description: >-
-  Cheap clean-up pass over the code comments and documentation a branch adds: a Sonnet
-  subagent scans them, the main session checks each finding against the code, fixes it
-  right away and commits the result as a docs commit where possible. Use when the user
-  runs /comment-pass or asks to "check the comments on this branch", "do a comment pass",
-  "clean up the comments and docs I added", or wants comments condensed before a PR goes
-  to review. Not for code review of behaviour and not for rewriting comments the branch
-  did not add.
+  Clean up the code comments and docs a branch adds, then commit the fixes. Use when asked
+  to check, clean up or condense the comments and docs on a branch, such as before a PR
+  goes to review. Not for reviewing behaviour or comments the branch did not add.
 ---
 
 # Comment pass

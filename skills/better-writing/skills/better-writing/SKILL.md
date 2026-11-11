@@ -1,16 +1,11 @@
 ---
 name: better-writing
 description: >-
-  Writing style for any text that leaves this session for other people: PR descriptions,
-  PR review comments and thread replies, work item (Bug/PBI) descriptions, repro steps and
-  acceptance criteria, work item comments, commit messages, team announcements, proposals,
-  design documents and idea write-ups for colleagues to comment on, chat messages drafted
-  for colleagues, and customer-facing text such as emails, support replies, incident
-  updates and postmortems.
-  Use it whenever you draft, post, or edit such text, also when another skill or workflow
-  produces it, and even when nobody asks for a style. Applies a per-target style on top of
-  a shared plain-English baseline. Not for replies to the user in this chat, code comments,
-  or in-repo docs.
+  Writing style for text other people read: PR descriptions and review comments, work
+  items and their comments, commit messages, announcements, proposals and design docs,
+  chat messages for colleagues, and customer emails, support replies and incident reports.
+  Use whenever you draft, post or edit such text, also when another skill produces it or
+  nobody asks for a style. Not for replies in this chat, code comments or in-repo docs.
 ---
 
 # Better writing
